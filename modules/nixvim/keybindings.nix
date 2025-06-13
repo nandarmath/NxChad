@@ -13,7 +13,7 @@ in
       options.remap = true;
     })
     (iKeymap' "<C-b>" "<ESC>^i" "move beginning of line")
-    (iKeymap' "<jk>" "<ESC>" "Exit insert mode")
+    (iKeymap' "<j-k>" "<ESC>" "Exit insert mode")
     (iKeymap' "<C-e>" "<End>" "move end of line")
     (iKeymap' "<C-h>" "<Left>" "move left")
     (iKeymap' "<C-l>" "<Right>" "move right")
